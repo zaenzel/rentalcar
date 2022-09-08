@@ -1,0 +1,30 @@
+.card-carousel {
+  @apply p-5 flex justify-center items-center;
+}
+.card-item{
+  @apply shadow-md
+}
+.title-testi{
+    @apply text-center flex flex-col space-y-5
+}
+.title-testi h2{
+    @apply font-bold text-4xl
+}
+.title-testi p{
+    @apply text-sm font-light
+}
+.card-item {
+  @apply p-5 bg-blue-200 rounded-2xl flex flex-wrap items-center justify-center space-y-5 text-center lg:text-start lg:flex-nowrap lg:py-10 lg:gap-5;
+}
+.image{
+    @apply lg:basis-1/6 lg:flex lg:justify-center
+}
+.text {
+  @apply space-y-4;
+}
+.coment-name {
+  @apply font-bold;
+}
+.coment {
+  @apply text-sm max-w-lg;
+}

@@ -1,0 +1,12 @@
+.banner{
+    @apply bg-blue-700 text-white p-16 space-y-8 text-center flex flex-col items-center rounded-xl shadow-md
+}
+.title{
+    @apply text-3xl font-bold 
+}
+.text{
+    @apply text-sm max-w-lg
+}
+.btn{
+    @apply px-5 py-3 bg-green-500 rounded-xl font-bold hover:bg-green-600
+}

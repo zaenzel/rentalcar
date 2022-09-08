@@ -1,0 +1,25 @@
+.kotak {
+  position: absolute;
+  width: 100px;
+  height: 50px;
+  background-color: blue;
+  animation: kotak 2s ease-in-out infinite;
+}
+
+@keyframes kotak {
+  0% {
+    width: 100px;
+  }
+  25% {
+    width: 120px;
+  }
+  50% {
+    width: 150px;
+  }
+  75% {
+    width: 180px;
+  }
+  100% {
+    width: 200px;
+  }
+}

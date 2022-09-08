@@ -1,0 +1,9 @@
+.wrapper-listing {
+  @apply py-20 space-y-10 ;
+}
+.wrap-title {
+  @apply relative flex justify-center items-center  text-center text-xl md:text-2xl font-bold;
+}
+.icon-listing {
+  @apply absolute left-0 cursor-pointer;
+}

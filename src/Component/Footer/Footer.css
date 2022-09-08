@@ -1,0 +1,12 @@
+.footer{
+    @apply bg-biru-primer p-20 mt-20 text-center space-y-10
+}
+.title-footer{
+    @apply text-white font-bold text-xl
+}
+.icon-wraper{
+    @apply flex justify-center items-center space-x-5 md:space-x-10
+}
+.icon-footer{
+    @apply font-bold text-xl md:text-4xl text-white transition-all duration-200 ease-linear hover:text-slate-400 hover:scale-105
+}

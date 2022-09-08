@@ -1,0 +1,21 @@
+.card-wrap {
+  @apply  p-2 my-2 ;
+}
+.card-item-list {
+  @apply p-10 border border-gray-100 rounded-2xl shadow-md bg-gradient-to-b from-lime-300 flex justify-center md:justify-between 
+}
+.images-wrap-calouselList{
+    @apply hidden max-w-sm lg:max-w-lg md:block 
+}
+.image-carousel-list{
+    @apply rounded-3xl
+}
+.text-carousel-list{
+    @apply md:basis-1/2 text-start p-10 space-y-5
+}
+.text-carousel-list h1{
+    @apply font-bold text-6xl text-biru-sekunder
+}
+.text-carousel-list h3{
+    @apply text-xl text-biru-primer
+}
